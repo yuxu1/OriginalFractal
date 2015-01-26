@@ -16,12 +16,12 @@ void drawCircle(int x, int y, int radius)
   if (radius > 10) 
   {
     stroke(229, 162, 250);
-    drawCircle(x + (int)radius/2, y, (int)radius/2);
+    drawCircle(x + (int)(radius/2), y, (int)(radius/2));
     stroke(137, 18, 131);
-    drawCircle(x - (int)radius/2, y, (int)radius/2);
+    drawCircle(x - (int)(radius/2), y, (int)(radius/2));
     stroke(162, 237, 250);
-    drawCircle(x, y + (int)radius/2, (int)radius/2);
+    drawCircle(x, y + (int)(radius/2), (int)(radius/2));
     stroke(84, 70, 255);
-    drawCircle(x, y - (int)radius/2, (int)radius/2);
+    drawCircle(x, y - (int)(radius/2), (int)(radius/2));
   }
 }
