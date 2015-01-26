@@ -13,7 +13,7 @@ void drawCircle(int x, int y, int radius)
 {
   noFill();
   ellipse(x, y, radius, radius);
-  if (radius > 10) 
+  if (radius > 7) 
   {
     stroke(229, 162, 250);
     drawCircle(x + (int)(radius/2), y, (int)(radius/2));
